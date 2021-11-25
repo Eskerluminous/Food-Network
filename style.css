@@ -1,0 +1,90 @@
+ *{
+     box-sizing: border-box;
+ }
+ .orange-color{
+    color: orange;
+}
+h1{
+   font-size: 60px;
+   color:#403D3D ;
+}
+h2{
+    font-size: 30px;
+    color:#928B89  
+
+}
+strong{
+    font-size: 37px;
+    color:#928B89 
+}
+.first-section{
+    display: flex;
+}
+.first-div{
+   width: 50%;
+padding-left: 7%;
+padding-top: 4%;
+    
+}
+.first-div img{
+    width: 94%;
+    height: 90%;
+   
+}
+.order-food{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 20px;
+
+}
+p{
+    font-size: 25px;
+}
+.second-section{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+.second-div{
+    width: 50%;
+    padding: 7%;
+}
+.second-div img{
+    width: 60%;
+padding-left: 20%;
+padding-top: 2%;
+
+}
+.flex-section{
+    display: flex;
+    padding: 100px;
+}
+.my-recipies{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-left: 5px;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img{
+    
+    border: 5px solid orange;
+    border-radius: 10px;
+    padding: 5%;
+}
