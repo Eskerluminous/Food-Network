@@ -1,5 +1,5 @@
- *{
-     box-sizing: border-box;
+ body{
+     font-family: arial;
  }
  .orange-color{
     color: orange;
@@ -56,9 +56,9 @@ p{
     padding: 7%;
 }
 .second-div img{
-    width: 60%;
-padding-left: 20%;
-padding-top: 2%;
+    width: 61%;
+padding-top: 5px;
+
 
 }
 .flex-section{
@@ -70,21 +70,31 @@ padding-top: 2%;
     padding-left: 15%;
     padding-right: 15%;
 }
-
-.column{
-    float: left;
-    width: 33.33%;
-    padding-left: 5px;
-
-}
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.column img{
+.card{
+    width: 28%;
+    padding-left: 0.5%;
     
-    border: 5px solid orange;
+    background-color:white;
     border-radius: 10px;
-    padding: 5%;
+    margin: 30px;
+    box-shadow: 3px 3px 10px gray;
+    display: inline-block;
+   
+    
+    
+
 }
+.image img{
+    width: 90%;
+    border-radius: 5%;
+    padding: 5% 5%;
+    
+
+
+
+}
+.tittle{
+    padding-bottom: 5%;
+    padding-left: 7%;
+}
+
