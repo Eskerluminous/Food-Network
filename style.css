@@ -53,7 +53,7 @@
  .second-section {
      display: flex;
      background-image: url(images/shapes/7.png);
-     background-size: auto;
+     background-size: 100%;
      background-repeat: no-repeat;
  }
  
@@ -64,7 +64,7 @@
  
  .second-div img {
      width: 61%;
-     padding-top: 5px;
+     padding-top: 0px;
  }
  
  .flex-section {
