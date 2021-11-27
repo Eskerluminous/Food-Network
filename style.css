@@ -53,6 +53,7 @@
  .second-section {
      display: flex;
      background-image: url(images/shapes/7.png);
+     background-size: auto;
      background-repeat: no-repeat;
  }
  
